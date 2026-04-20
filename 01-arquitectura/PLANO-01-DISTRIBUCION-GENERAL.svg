@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <style>
+      .wall { fill: none; stroke: #1a1a1a; stroke-width: 3; }
+      .wall-thin { fill: none; stroke: #1a1a1a; stroke-width: 2; }
+      .area { fill: #f8f9fa; stroke: #333; stroke-width: 1; }
+      .area-label { font-family: Arial, sans-serif; font-size: 11px; fill: #333; }
+      .area-size { font-family: Arial, sans-serif; font-size: 10px; fill: #666; }
+      .title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1a1a1a; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 11px; fill: #555; }
+      .legend { font-family: Arial, sans-serif; font-size: 9px; fill: #333; }
+      .symbol { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #0066cc; }
+      .door { fill: none; stroke: #333; stroke-width: 2; }
+      .equipment { fill: #e8f4e8; stroke: #4a4; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- Fondo -->
+  <rect x="50" y="50" width="1100" height="800" fill="white" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Título principal -->
+  <text x="600" y="35" text-anchor="middle" class="title">LABORATORIO DE MICROBIOLOGÍA BSL-2</text>
+  <text x="600" y="52" text-anchor="middle" class="subtitle">Distribución General - Planta Baja | Escala 1:100</text>
+
+  <!-- LABORATORIO - Marco Exterior -->
+  <rect x="100" y="80" width="900" height="680" class="wall"/>
+
+  <!-- ÁREA EXTERIOR - Vestíbulo / Recepciones (izquierda) -->
+  <rect x="100" y="80" width="280" height="200" fill="#fff5e6" stroke="#cc6600" stroke-width="2"/>
+  <text x="240" y="115" text-anchor="middle" class="area-label" font-weight="bold">ZONA RECEPCIÓN</text>
+  <text x="240" y="175" text-anchor="middle" class="area-size">12 m²</text>
+
+  <!-- EQUIPOS RECEPCIÓN -->
+  <rect x="120" y="130" width="60" height="40" fill="#ddd" stroke="#666" stroke-width="1"/>
+  <text x="150" y="155" text-anchor="middle" class="legend" font-size="8">Mesa</text>
+
+  <rect x="200" y="130" width="60" height="40" fill="#ddd" stroke="#666" stroke-width="1"/>
+  <text x="230" y="155" text-anchor="middle" class="legend" font-size="8">LIMS</text>
+
+  <rect x="120" y="190" width="60" height="50" fill="#cce5ff" stroke="#0099cc" stroke-width="1"/>
+  <text x="150" y="220" text-anchor="middle" class="legend" font-size="8">Refrig.</text>
+
+  <!-- ASEOS (esquina superior derecha) -->
+  <rect x="520" y="80" width="220" height="120" fill="#f0f8ff" stroke="#0066cc" stroke-width="2"/>
+  <text x="630" y="100" text-anchor="middle" class="area-label" font-weight="bold">ASEOS</text>
+  <text x="630" y="140" text-anchor="middle" class="area-size">5 m²</text>
+  <!-- Inodoro -->
+  <rect x="550" y="115" width="30" height="40" fill="#fff" stroke="#666"/>
+  <circle cx="565" cy="145" r="15" fill="none" stroke="#666" stroke-width="1"/>
+  <!-- Lavabo -->
+  <rect x="610" y="125" width="35" height="25" fill="#fff" stroke="#666"/>
+
+  <!-- VESTUARIO -->
+  <rect x="520" y="205" width="220" height="75" fill="#fff8e6" stroke="#cc9900" stroke-width="2"/>
+  <text x="630" y="225" text-anchor="middle" class="area-label" font-weight="bold">VESTUARIO</text>
+  <text x="630" y="255" text-anchor="middle" class="area-size">6 m²</text>
+
+  <!-- ALMACÉN GENERAL -->
+  <rect x="520" y="285" width="220" height="150" fill="#f5f5f5" stroke="#666" stroke-width="2"/>
+  <text x="630" y="310" text-anchor="middle" class="area-label" font-weight="bold">ALMACÉN GENERAL</text>
+  <text x="630" y="360" text-anchor="middle" class="area-size">10 m²</text>
+  <!-- Estanterías -->
+  <line x1="560" y1="350" x2="700" y2="350" stroke="#999" stroke-width="2"/>
+  <line x1="560" y1="380" x2="700" y2="380" stroke="#999" stroke-width="2"/>
+  <line x1="560" y1="410" x2="700" y2="410" stroke="#999" stroke-width="2"/>
+
+  <!-- OFICINA / LIMS -->
+  <rect x="760" y="80" width="240" height="140" fill="#e6f3ff" stroke="#0066cc" stroke-width="2"/>
+  <text x="880" y="105" text-anchor="middle" class="area-label" font-weight="bold">OFICINA / LIMS</text>
+  <text x="880" y="150" text-anchor="middle" class="area-size">10 m²</text>
+  <!-- Mesas -->
+  <rect x="790" y="130" width="60" height="50" fill="#ddd" stroke="#666"/>
+  <rect x="880" y="130" width="60" height="50" fill="#ddd" stroke="#666"/>
+
+  <!-- CUARTO TÉCNICO -->
+  <rect x="760" y="225" width="240" height="120" fill="#ffe6e6" stroke="#cc0000" stroke-width="2"/>
+  <text x="880" y="250" text-anchor="middle" class="area-label" font-weight="bold">CUARTO TÉCNICO</text>
+  <text x="880" y="290" text-anchor="middle" class="area-size">8 m²</text>
+  <!-- Equipos técnicos -->
+  <rect x="790" y="270" width="40" height="50" fill="#fcc" stroke="#c00"/>
+  <text x="810" y="300" text-anchor="middle" class="legend" font-size="8">HVAC</text>
+
+  <!-- PASILLO PRINCIPAL -->
+  <rect x="100" y="285" width="410" height="100" fill="#fafafa" stroke="#999" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="305" y="340" text-anchor="middle" class="area-label">PASILLO PRINCIPAL (1.20 m)</text>
+
+  <!-- ÁREA DE PREPARACIÓN DE MEDIOS -->
+  <rect x="100" y="390" width="250" height="180" fill="#e8f5e8" stroke="#228822" stroke-width="2"/>
+  <text x="225" y="415" text-anchor="middle" class="area-label" font-weight="bold">PREPARACIÓN MEDIOS</text>
+  <text x="225" y="480" text-anchor="middle" class="area-size">14 m²</text>
+  <!-- BSC -->
+  <rect x="120" y="435" width="120" height="60" fill="#c8e6c8" stroke="#228822" stroke-width="2"/>
+  <text x="180" y="455" text-anchor="middle" class="symbol">BSC-1</text>
+  <text x="180" y="475" text-anchor="middle" class="legend" font-size="8">Cabina Seg.</text>
+  <!-- Autoclave -->
+  <rect x="260" y="435" width="60" height="70" fill="#c8e6c8" stroke="#228822" stroke-width="2"/>
+  <text x="290" y="455" text-anchor="middle" class="symbol">AUT</text>
+  <text x="290" y="475" text-anchor="middle" class="legend" font-size="8">Autoclave</text>
+
+  <!-- ÁREA DE CULTIVO E INCUBACIÓN -->
+  <rect x="355" y="390" width="290" height="200" fill="#e8f0ff" stroke="#2244cc" stroke-width="2"/>
+  <text x="500" y="415" text-anchor="middle" class="area-label" font-weight="bold">CULTIVO E INCUBACIÓN</text>
+  <text x="500" y="490" text-anchor="middle" class="area-size">20 m²</text>
+  <!-- Incubadoras -->
+  <rect x="375" y="440" width="50" height="50" fill="#ccd9ff" stroke="#2244cc"/>
+  <text x="400" y="465" text-anchor="middle" class="legend" font-size="8">INC-01</text>
+  <rect x="435" y="440" width="50" height="50" fill="#ccd9ff" stroke="#2244cc"/>
+  <text x="460" y="465" text-anchor="middle" class="legend" font-size="8">INC-02</text>
+  <rect x="495" y="440" width="50" height="50" fill="#ccd9ff" stroke="#2244cc"/>
+  <text x="520" y="465" text-anchor="middle" class="legend" font-size="8">INC-03</text>
+  <rect x="375" y="500" width="50" height="50" fill="#ccd9ff" stroke="#2244cc"/>
+  <text x="400" y="525" text-anchor="middle" class="legend" font-size="8">INC-04</text>
+  <!-- Microscopio -->
+  <rect x="500" y="510" width="60" height="50" fill="#d4edda" stroke="#28a745"/>
+  <text x="530" y="535" text-anchor="middle" class="legend" font-size="8">MIC-01</text>
+  <!-- Estufa -->
+  <rect x="570" y="500" width="50" height="50" fill="#fff3cd" stroke="#ffc107"/>
+  <text x="595" y="525" text-anchor="middle" class="legend" font-size="8">EST-01</text>
+
+  <!-- ÁREA DE ANÁLISIS -->
+  <rect x="100" y="575" width="410" height="185" fill="#fce4ec" stroke="#e91e63" stroke-width="2"/>
+  <text x="305" y="600" text-anchor="middle" class="area-label" font-weight="bold">ÁREA DE ANÁLISIS</text>
+  <text x="305" y="670" text-anchor="middle" class="area-size">18 m²</text>
+  <!-- PCR -->
+  <rect x="120" y="625" width="60" height="50" fill="#f8bbd9" stroke="#c2185b"/>
+  <text x="150" y="655" text-anchor="middle" class="legend" font-size="8">PCR</text>
+  <!-- Termociclador -->
+  <rect x="190" y="625" width="60" height="50" fill="#f8bbd9" stroke="#c2185b"/>
+  <text x="220" y="655" text-anchor="middle" class="legend" font-size="8">qPCR</text>
+  <!-- Centro de trabajo -->
+  <rect x="140" y="690" width="100" height="50" fill="#e0e0e0" stroke="#616161"/>
+  <text x="190" y="720" text-anchor="middle" class="legend" font-size="8">Mesa</text>
+  <!-- Citómetro -->
+  <rect x="380" y="625" width="80" height="60" fill="#b3e5fc" stroke="#0288d1"/>
+  <text x="420" y="660" text-anchor="middle" class="legend" font-size="8">Cito.</text>
+
+  <!-- ZONA BSC (franja derecha) -->
+  <rect x="650" y="440" width="180" height="195" fill="#c8e6c8" stroke="#228822" stroke-width="2"/>
+  <text x="740" y="465" text-anchor="middle" class="area-label" font-weight="bold">ZONA BSC</text>
+  <text x="740" y="540" text-anchor="middle" class="area-size">12 m²</text>
+  <!-- BSC-2 -->
+  <rect x="670" y="490" width="90" height="60" fill="#a5d6a7" stroke="#228822" stroke-width="2"/>
+  <text x="715" y="515" text-anchor="middle" class="symbol">BSC-2</text>
+  <text x="715" y="530" text-anchor="middle" class="legend" font-size="7">Clase II</text>
+  <!-- BSC-3 -->
+  <rect x="670" y="565" width="90" height="60" fill="#a5d6a7" stroke="#228822" stroke-width="2"/>
+  <text x="715" y="590" text-anchor="middle" class="symbol">BSC-3</text>
+  <text x="715" y="605" text-anchor="middle" class="legend" font-size="7">Tipo A2</text>
+
+  <!-- Puertas -->
+  <line x1="240" y1="280" x2="280" y2="280" class="door"/>
+  <path d="M 240 280 L 240 270 A 10 10 0 0 1 250 270" fill="none" stroke="#333" stroke-width="2"/>
+
+  <line x1="380" y1="390" x2="355" y2="390" class="door"/>
+  <path d="M 380 390 L 380 400 A 10 10 0 0 0 370 400" fill="none" stroke="#333" stroke-width="2"/>
+
+  <line x1="520" y1="440" x2="355" y2="440" class="door"/>
+  <path d="M 520 440 L 520 450 A 10 10 0 0 0 510 450" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Leyenda -->
+  <rect x="50" y="780" width="350" height="80" fill="white" stroke="#ccc"/>
+  <text x="60" y="798" class="area-label" font-weight="bold">LEYENDA:</text>
+  <text x="60" y="815" class="legend">BSC: Cabina de Seguridad Biológica</text>
+  <text x="60" y="830" class="legend">INC: Incubadora | AUT: Autoclave</text>
+  <text x="60" y="845" class="legend">MIC: Microscopio | PCR: Termociclador</text>
+
+  <!-- Resumen de superficies -->
+  <rect x="450" y="780" width="350" height="80" fill="white" stroke="#ccc"/>
+  <text x="460" y="798" class="area-label" font-weight="bold">SUPERFICIES:</text>
+  <text x="460" y="815" class="legend">Recepción: 12 m² | Preparación: 14 m²</text>
+  <text x="460" y="830" class="legend">Cultivo: 20 m² | Análisis: 18 m²</text>
+  <text x="460" y="845" class="legend">Almacén: 10 m² | Total: 145 m²</text>
+
+  <!-- Información del proyecto -->
+  <rect x="850" y="780" width="280" height="80" fill="white" stroke="#ccc"/>
+  <text x="860" y="798" class="area-label" font-weight="bold">DATOS DEL PROYECTO:</text>
+  <text x="860" y="815" class="legend">Proyecto: Laboratorio BSL-2</text>
+  <text x="860" y="830" class="legend">Personal: 8 investigadores</text>
+  <text x="860" y="845" class="legend">Presupuesto: 1.000.000 €</text>
+
+  <!-- Escala gráfica -->
+  <line x1="150" y1="870" x2="350" y2="870" stroke="#333" stroke-width="2"/>
+  <line x1="150" y1="865" x2="150" y2="875" stroke="#333" stroke-width="2"/>
+  <line x1="250" y1="865" x2="250" y2="875" stroke="#333" stroke-width="2"/>
+  <line x1="350" y1="865" x2="350" y2="875" stroke="#333" stroke-width="2"/>
+  <text x="250" y="862" text-anchor="middle" class="legend">0</text>
+  <text x="250" y="885" text-anchor="middle" class="legend">10 m</text>
+  <text x="250" y="895" text-anchor="middle" class="legend">Escala 1:100</text>
+
+  <!-- Norte -->
+  <text x="1100" y="120" class="area-label" font-weight="bold">N</text>
+  <polygon points="1100,130 1095,150 1105,150" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+
+  <!-- Fecha -->
+  <text x="1080" y="870" text-anchor="end" class="legend">Fecha: 20/04/2026</text>
+  <text x="1080" y="885" text-anchor="end" class="legend">Plano: ARQ-01</text>
+</svg>

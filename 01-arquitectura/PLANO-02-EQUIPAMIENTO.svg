@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <style>
+      .wall { fill: none; stroke: #1a1a1a; stroke-width: 3; }
+      .area { fill: #f8f9fa; stroke: #333; stroke-width: 1; }
+      .area-label { font-family: Arial, sans-serif; font-size: 11px; fill: #333; font-weight: bold; }
+      .area-sublabel { font-family: Arial, sans-serif; font-size: 10px; fill: #555; }
+      .title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #1a1a1a; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 11px; fill: #555; }
+      .equip-box { fill: #e3f2fd; stroke: #1565c0; stroke-width: 1; }
+      .equip-text { font-family: Arial, sans-serif; font-size: 9px; fill: #0d47a1; }
+      .legend { font-family: Arial, sans-serif; font-size: 9px; fill: #333; }
+      .price { font-family: Arial, sans-serif; font-size: 8px; fill: #666; }
+    </style>
+  </defs>
+
+  <!-- Fondo -->
+  <rect x="50" y="50" width="1100" height="800" fill="white" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Título -->
+  <text x="600" y="35" text-anchor="middle" class="title">LABORATORIO MICROBIOLOGÍA BSL-2</text>
+  <text x="600" y="52" text-anchor="middle" class="subtitle">Layout de Equipamiento - Detalle por Áreas | Escala 1:50</text>
+
+  <!-- Marco -->
+  <rect x="80" y="70" width="1040" height="720" class="wall"/>
+
+  <!-- ============ ÁREA 1: RECEPCIÓN (12 m²) ============ -->
+  <rect x="90" y="80" width="180" height="120" fill="#fff8e1" stroke="#f57f17" stroke-width="2"/>
+  <text x="180" y="95" text-anchor="middle" class="area-label">01 RECEPCIÓN</text>
+  <text x="180" y="110" text-anchor="middle" class="area-sublabel">12 m²</text>
+
+  <!-- Mesa recepción -->
+  <rect x="105" y="120" width="50" height="35" fill="#e0e0e0" stroke="#616161" stroke-width="1"/>
+  <text x="130" y="145" text-anchor="middle" class="equip-text" font-size="8">Mesa RC</text>
+  <!-- Terminal LIMS -->
+  <rect x="165" y="120" width="40" height="30" fill="#b3e5fc" stroke="#0288d1" stroke-width="1"/>
+  <text x="185" y="140" text-anchor="middle" class="equip-text" font-size="7">LIMS</text>
+  <!-- Refrigerador -->
+  <rect x="105" y="165" width="50" height="25" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+  <text x="130" y="182" text-anchor="middle" class="equip-text" font-size="7">Ref-4°C</text>
+
+  <!-- ============ ÁREA 2: PREPARACIÓN MEDIOS (14 m²) ============ -->
+  <rect x="280" y="80" width="220" height="140" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+  <text x="390" y="95" text-anchor="middle" class="area-label">02 PREPARACIÓN MEDIOS</text>
+  <text x="390" y="110" text-anchor="middle" class="area-sublabel">14 m²</text>
+
+  <!-- BSC-1 -->
+  <rect x="295" y="120" width="80" height="45" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+  <text x="335" y="140" text-anchor="middle" class="equip-text" font-weight="bold">BSC-1</text>
+  <text x="335" y="155" text-anchor="middle" class="price">15.000€</text>
+  <!-- Autoclave -->
+  <rect x="385" y="120" width="60" height="50" fill="#c8e6c8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="415" y="145" text-anchor="middle" class="equip-text" font-weight="bold">AUT-1</text>
+  <text x="415" y="160" text-anchor="middle" class="price">30.000€</text>
+  <!-- Baño termostático -->
+  <rect x="455" y="120" width="35" height="30" fill="#dcedc8" stroke="#689f38" stroke-width="1"/>
+  <text x="472" y="140" text-anchor="middle" class="equip-text" font-size="7">BÑO</text>
+  <!-- Balanza -->
+  <rect x="295" y="175" width="40" height="35" fill="#dcedc8" stroke="#689f38" stroke-width="1"/>
+  <text x="315" y="195" text-anchor="middle" class="equip-text" font-size="7">BAL</text>
+  <text x="315" y="208" text-anchor="middle" class="price">4.000€</text>
+  <!-- Mesa trabajo -->
+  <rect x="345" y="180" width="55" height="30" fill="#f5f5f5" stroke="#9e9e9e" stroke-width="1"/>
+  <text x="372" y="200" text-anchor="middle" class="equip-text" font-size="7">MESA</text>
+  <!-- Sistema agua -->
+  <rect x="410" y="180" width="30" height="25" fill="#e0f2f1" stroke="#00695c" stroke-width="1"/>
+  <text x="425" y="196" text-anchor="middle" class="equip-text" font-size="7">H2O</text>
+
+  <!-- ============ ÁREA 3: CULTIVO E INCUBACIÓN (20 m²) ============ -->
+  <rect x="510" y="80" width="280" height="160" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+  <text x="650" y="95" text-anchor="middle" class="area-label">03 CULTIVO E INCUBACIÓN</text>
+  <text x="650" y="110" text-anchor="middle" class="area-sublabel">20 m²</text>
+
+  <!-- INC-01 -->
+  <rect x="525" y="120" width="45" height="45" fill="#90caf9" stroke="#1565c0" stroke-width="1"/>
+  <text x="547" y="142" text-anchor="middle" class="equip-text" font-weight="bold">INC-01</text>
+  <text x="547" y="157" text-anchor="middle" class="price">8.000€</text>
+  <!-- INC-02 -->
+  <rect x="580" y="120" width="45" height="45" fill="#90caf9" stroke="#1565c0" stroke-width="1"/>
+  <text x="602" y="142" text-anchor="middle" class="equip-text" font-weight="bold">INC-02</text>
+  <text x="602" y="157" text-anchor="middle" class="price">8.000€</text>
+  <!-- INC-03 -->
+  <rect x="635" y="120" width="45" height="45" fill="#90caf9" stroke="#1565c0" stroke-width="1"/>
+  <text x="657" y="142" text-anchor="middle" class="equip-text" font-weight="bold">INC-03</text>
+  <text x="657" y="157" text-anchor="middle" class="price">8.000€</text>
+  <!-- INC-04 -->
+  <rect x="690" y="120" width="45" height="45" fill="#90caf9" stroke="#1565c0" stroke-width="1"/>
+  <text x="712" y="142" text-anchor="middle" class="equip-text" font-weight="bold">INC-04</text>
+  <text x="712" y="157" text-anchor="middle" class="price">5.000€</text>
+  <!-- Estufa -->
+  <rect x="745" y="120" width="35" height="40" fill="#ffe082" stroke="#f9a825" stroke-width="1"/>
+  <text x="762" y="145" text-anchor="middle" class="equip-text" font-size="7">EST</text>
+  <!-- Microscopio inverted -->
+  <rect x="525" y="175" width="50" height="40" fill="#ce93d8" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="550" y="198" text-anchor="middle" class="equip-text" font-size="7">MIC-INV</text>
+  <!-- Microscopio óptico -->
+  <rect x="585" y="175" width="50" height="40" fill="#ce93d8" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="610" y="198" text-anchor="middle" class="equip-text" font-size="7">MIC-01</text>
+  <!-- Cámara Countess -->
+  <rect x="645" y="190" width="40" height="30" fill="#f48fb1" stroke="#c2185b" stroke-width="1"/>
+  <text x="665" y="209" text-anchor="middle" class="equip-text" font-size="7">CELL</text>
+  <!-- Congelador -->
+  <rect x="700" y="180" width="40" height="35" fill="#81d4fa" stroke="#0277bd" stroke-width="1"/>
+  <text x="720" y="202" text-anchor="middle" class="equip-text" font-size="7">CRI-80</text>
+
+  <!-- ============ ÁREA 4: ANÁLISIS (18 m²) ============ -->
+  <rect x="800" y="80" width="200" height="150" fill="#fce4ec" stroke="#c2185b" stroke-width="2"/>
+  <text x="900" y="95" text-anchor="middle" class="area-label">04 ANÁLISIS</text>
+  <text x="900" y="110" text-anchor="middle" class="area-sublabel">18 m²</text>
+
+  <!-- PCR -->
+  <rect x="815" y="120" width="50" height="40" fill="#f8bbd0" stroke="#c2185b" stroke-width="1"/>
+  <text x="840" y="142" text-anchor="middle" class="equip-text" font-weight="bold">PCR</text>
+  <text x="840" y="154" text-anchor="middle" class="price">12.000€</text>
+  <!-- qPCR -->
+  <rect x="875" y="120" width="50" height="40" fill="#f8bbd0" stroke="#c2185b" stroke-width="1"/>
+  <text x="900" y="142" text-anchor="middle" class="equip-text" font-weight="bold">qPCR</text>
+  <text x="900" y="154" text-anchor="middle" class="price">35.000€</text>
+  <!-- Electroforesis -->
+  <rect x="935" y="120" width="50" height="35" fill="#f8bbd0" stroke="#c2185b" stroke-width="1"/>
+  <text x="960" y="140" text-anchor="middle" class="equip-text" font-size="7">ELE</text>
+  <!-- Centrífuga -->
+  <rect x="815" y="170" width="40" height="40" fill="#f8bbd0" stroke="#c2185b" stroke-width="1"/>
+  <text x="835" y="193" text-anchor="middle" class="equip-text" font-size="7">CEN</text>
+  <text x="835" y="205" text-anchor="middle" class="price">6.000€</text>
+  <!-- Espectrofotómetro -->
+  <rect x="865" y="170" width="45" height="40" fill="#f8bbd0" stroke="#c2185b" stroke-width="1"/>
+  <text x="887" y="193" text-anchor="middle" class="equip-text" font-size="7">SPECT</text>
+  <!-- Gel doc -->
+  <rect x="920" y="170" width="60" height="40" fill="#f8bbd0" stroke="#c2185b" stroke-width="1"/>
+  <text x="950" y="193" text-anchor="middle" class="equip-text" font-size="7">GELDOC</text>
+  <text x="950" y="205" text-anchor="middle" class="price">8.000€</text>
+  <!-- Citómetro -->
+  <rect x="820" y="220" width="70" height="1" fill="#f48fb1" stroke="#c2185b"/>
+  <text x="855" y="235" text-anchor="middle" class="equip-text" font-size="7">FLUX</text>
+
+  <!-- ============ ÁREA 5: ZONA BSC (12 m²) ============ -->
+  <rect x="90" y="210" width="160" height="130" fill="#c8e6c8" stroke="#2e7d32" stroke-width="2"/>
+  <text x="170" y="225" text-anchor="middle" class="area-label">05 ZONA BSC</text>
+  <text x="170" y="240" text-anchor="middle" class="area-sublabel">12 m²</text>
+
+  <!-- BSC-2 -->
+  <rect x="105" y="250" width="70" height="45" fill="#81c784" stroke="#2e7d32" stroke-width="2"/>
+  <text x="140" y="272" text-anchor="middle" class="equip-text" font-weight="bold">BSC-2</text>
+  <text x="140" y="288" text-anchor="middle" class="price">15.000€</text>
+  <!-- BSC-3 -->
+  <rect x="105" y="305" width="70" height="25" fill="#81c784" stroke="#2e7d32" stroke-width="2"/>
+  <text x="140" y="322" text-anchor="middle" class="equip-text" font-weight="bold">BSC-3</text>
+
+  <!-- ============ ÁREA 6: ALMACÉN (10 m²) ============ -->
+  <rect x="260" y="230" width="140" height="100" fill="#eeeeee" stroke="#616161" stroke-width="2"/>
+  <text x="330" y="245" text-anchor="middle" class="area-label">06 ALMACÉN</text>
+  <text x="330" y="260" text-anchor="middle" class="area-sublabel">10 m²</text>
+  <!-- Estanterías -->
+  <line x1="275" y1="290" x2="385" y2="290" stroke="#bdbdbd" stroke-width="2"/>
+  <line x1="275" y1="310" x2="385" y2="310" stroke="#bdbdbd" stroke-width="2"/>
+
+  <!-- Refrigerador (-20°C) -->
+  <rect x="275" y="280" width="40" height="35" fill="#90caf9" stroke="#1565c0" stroke-width="1"/>
+  <text x="295" y="300" text-anchor="middle" class="equip-text" font-size="7">-20°C</text>
+  <!-- Congelador (-80°C) -->
+  <rect x="325" y="280" width="50" height="40" fill="#64b5f6" stroke="#1565c0" stroke-width="1"/>
+  <text x="350" y="305" text-anchor="middle" class="equip-text" font-size="7">-80°C</text>
+
+  <!-- ============ ÁREA 7: OFICINA (10 m²) ============ -->
+  <rect x="410" y="230" width="130" height="100" fill="#e1f5fe" stroke="#0277bd" stroke-width="2"/>
+  <text x="475" y="245" text-anchor="middle" class="area-label">07 OFICINA</text>
+  <text x="475" y="260" text-anchor="middle" class="area-sublabel">10 m²</text>
+  <!-- Ordenador -->
+  <rect x="430" y="270" width="40" height="30" fill="#b3e5fc" stroke="#0277bd" stroke-width="1"/>
+  <text x="450" y="288" text-anchor="middle" class="equip-text" font-size="7">PC</text>
+  <!-- Impresora -->
+  <rect x="480" y="270" width="40" height="30" fill="#b3e5fc" stroke="#0277bd" stroke-width="1"/>
+  <text x="500" y="288" text-anchor="middle" class="equip-text" font-size="7">IMP</text>
+
+  <!-- ============ ÁREA 8: CUARTO TÉCNICO (8 m²) ============ -->
+  <rect x="550" y="230" width="110" height="90" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/>
+  <text x="605" y="245" text-anchor="middle" class="area-label">08 TÉCNICO</text>
+  <text x="605" y="260" text-anchor="middle" class="area-sublabel">8 m²</text>
+  <!-- HVAC -->
+  <rect x="565" y="270" width="45" height="35" fill="#ef9a9a" stroke="#c62828" stroke-width="1"/>
+  <text x="587" y="290" text-anchor="middle" class="equip-text" font-size="7">HVAC</text>
+  <!-- Compresor -->
+  <rect x="620" y="270" width="30" height="35" fill="#ef9a9a" stroke="#c62828" stroke-width="1"/>
+  <text x="635" y="290" text-anchor="middle" class="equip-text" font-size="7">COMP</text>
+
+  <!-- ============ ÁREA 9: VESTUARIO (6 m²) ============ -->
+  <rect x="100" y="350" width="120" height="90" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+  <text x="160" y="365" text-anchor="middle" class="area-label">VESTUARIO</text>
+  <text x="160" y="380" text-anchor="middle" class="area-sublabel">6 m²</text>
+  <!-- Taquilla -->
+  <rect x="115" y="390" width="25" height="40" fill="#ffcc80" stroke="#e65100" stroke-width="1"/>
+  <rect x="145" y="390" width="25" height="40" fill="#ffcc80" stroke="#e65100" stroke-width="1"/>
+
+  <!-- ============ ÁREA 10: ASEOS (5 m²) ============ -->
+  <rect x="230" y="350" width="100" height="90" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+  <text x="280" y="365" text-anchor="middle" class="area-label">ASEOS</text>
+  <text x="280" y="380" text-anchor="middle" class="area-sublabel">5 m²</text>
+  <!-- Inodoro -->
+  <circle cx="265" cy="400" r="15" fill="none" stroke="#5c6bc0" stroke-width="1"/>
+  <!-- Lavabo -->
+  <rect x="295" y="395" width="25" height="20" fill="#c5cae9" stroke="#3f51b5" stroke-width="1"/>
+
+  <!-- ============ RESUMEN PRESUPUESTO ============ -->
+  <rect x="350" y="350" width="400" height="120" fill="#fafafa" stroke="#9e9e9e" stroke-width="1"/>
+  <text x="550" y="365" text-anchor="middle" class="area-label">RESUMEN DE PRESUPUESTO</text>
+  <text x="370" y="385" class="legend">• Prep. medios: 49.000 €</text>
+  <text x="370" y="400" class="legend">• Cultivo/Incub: 38.000 €</text>
+  <text x="370" y="415" class="legend">• Análisis: 61.000 €</text>
+  <text x="530" y="385" class="legend">• BSC (x3): 45.000 €</text>
+  <text x="530" y="400" class="legend">• Almacenamiento: 18.000 €</text>
+  <text x="530" y="415" class="legend">• Soporte: 15.000 €</text>
+  <text x="550" y="455" text-anchor="middle" class="area-label" font-size="12">PRESUPUESTO Total: 315.000 €</text>
+
+  <!-- ============ NOTAS ============ -->
+  <rect x="760" y="350" width="300" height="120" fill="#fff9c4" stroke="#f9a825" stroke-width="1"/>
+  <text x="910" y="365" text-anchor="middle" class="area-label">NOTAS</text>
+  <text x="775" y="385" class="legend">1. Precios orientativos (2024)</text>
+  <text x="775" y="400" class="legend">2. BSC requiere instalación HVAC</text>
+  <text x="775" y="415" class="legend">3. Verificar compatibilidad eléctrica</text>
+  <text x="775" y="430" class="legend">4. Mantenimiento anual obligatorio</text>
+  <text x="775" y="445" class="legend">5. Reserva gestión: 10% (31.500€)</text>
+
+  <!-- ============ LEYENDA SIMBOLOGÍA ============ -->
+  <rect x="100" y="460" width="250" height="180" fill="white" stroke="#ccc"/>
+  <text x="120" y="475" class="area-label" font-weight="bold">SIMBOLOGÍA:</text>
+  <rect x="120" y="485" width="20" height="15" fill="#a5d6a7" stroke="#2e7d32" stroke-width="1"/>
+  <text x="150" y="497" class="legend">BSC - Cabina Seguridad</text>
+  <rect x="120" y="505" width="20" height="15" fill="#90caf9" stroke="#1565c0" stroke-width="1"/>
+  <text x="150" y="517" class="legend">INC - Incubadora</text>
+  <rect x="120" y="525" width="20" height="15" fill="#f8bbd0" stroke="#c2185b" stroke-width="1"/>
+  <text x="150" y="537" class="legend">PCR - Termociclador</text>
+  <rect x="120" y="545" width="20" height="15" fill="#81c784" stroke="#2e7d32" stroke-width="2"/>
+  <text x="150" y="557" class="legend">AUT - Autoclave</text>
+  <rect x="120" y="565" width="20" height="15" fill="#ce93d8" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="150" y="577" class="legend">MIC - Microscopio</text>
+  <rect x="120" y="585" width="20" height="15" fill="#90caf9" stroke="#0277bd" stroke-width="1"/>
+  <text x="150" y="597" class="legend">CRI - Congelador</text>
+
+  <!-- Escala -->
+  <line x1="480" y1="730" x2="680" y2="730" stroke="#333" stroke-width="2"/>
+  <line x1="480" y1="725" x2="480" y2="735" stroke="#333" stroke-width="2"/>
+  <line x1="580" y1="725" x2="580" y2="735" stroke="#333" stroke-width="2"/>
+  <line x1="680" y1="725" x2="680" y2="735" stroke="#333" stroke-width="2"/>
+  <text x="580" y="720" text-anchor="middle" class="legend">0</text>
+  <text x="630" y="720" text-anchor="middle" class="legend">5 m</text>
+  <text x="580" y="748" text-anchor="middle" class="legend">Escala 1:50</text>
+
+  <!-- Norte -->
+  <text x="1100" y="90" class="area-label" font-weight="bold" font-size="16">N</text>
+  <polygon points="1100,105 1093,130 1107,130" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+
+  <!-- Info -->
+  <text x="1080" y="730" text-anchor="end" class="legend">Fecha: 20/04/2026</text>
+  <text x="1080" y="745" text-anchor="end" class="legend">Plano: ARQ-02</text>
+  <text x="1080" y="760" text-anchor="end" class="legend">Total equipos: 37 uds</text>
+</svg>
